@@ -1,0 +1,22 @@
+{
+  "name": "imeepo/validate",
+  "description": "The webman Validate Package",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "imeepo",
+      "email": "me@imeepo.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "require-dev": {
+    "workerman/webman-framework": "^1.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "imeepo\\validate\\": "src/"
+    }
+  }
+}
